@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 7px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1180px;
+  margin-bottom: 100px;
+}
+.navbar-brand {
+  margin-left: 35px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 50px;
+}
+.nav-item,
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background-color: brown;
+  color: azure;
+  border: none;
+  line-height: 30px;
+  padding: 3px 15px;
+  margin: 0 13px;
+}
+
+/* second component */
+.section {
+  display: flex;
+  /* align-items: end;
+  justify-content: center; */
+  gap: 20px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.container {
+  margin-top: 25px;
+  padding-left: 60px;
+  width: 400px;
+
+  height: 300px;
+}
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+.img-container {
+  display: flex;
+  gap: 15px;
+}
+.content h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.buttons {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 20px;
+}
+.btn-2 {
+  background-color: rgb(226, 43, 43);
+  color: white;
+  border: none;
+  padding: 7px 7px;
+}
+
+.btn-3 {
+  background-color: none;
+  border: 2px solid rgb(8, 6, 6);
+  padding: 7px 7px;
+}
+.img-container picture {
+  margin-bottom: 12px;
+}
+.img-container a {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 20px;
+}
